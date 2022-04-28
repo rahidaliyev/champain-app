@@ -7,6 +7,7 @@ class Wine extends Component{
            <h1 className="titleClass">{this.props.title}</h1>
            <p>{this.props.description}</p>
            <p>{this.props.rating}</p>
+           <p>{this.props.like ?<p>&#128147;</p>:null}</p>
            </div>
         )
     }

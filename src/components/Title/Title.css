@@ -1,11 +1,20 @@
 .titleClass{
     height: 50px;
     width: 200px;
-    border: 1px solid black;
+    
     margin:auto;
     margin-top: 10px;
-    color: red;
+    color: yellow;
 }
 .main{
     text-align: center;
+    background-color: rgb(131, 58, 224);;
+    border: 5px solid yellow;
+    height: 350px;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+.main p{
+    color: azure;
 }
